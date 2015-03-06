@@ -288,7 +288,9 @@ pre {
   list-style: none; }
   .post-list > li {
     margin-bottom: 30px;
-    text-align: center; }
+    text-align: center;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 30px; }
     .post-list > li h2 {
       font-weight: bold;
       font-size: 36px; }
@@ -297,6 +299,8 @@ pre {
     .post-list > li .post-excerpt {
       font-size: 20px;
       color: #4a4a4a; }
+  .post-list > li:last-child {
+    border: 0; }
 
 .post-meta {
   font-size: 16px;
