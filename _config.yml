@@ -1,0 +1,20 @@
+# Site settings
+title       : xanderdwyl
+description : My personal blog site.
+logo        : site-logo.png
+search      : true
+baseurl     : "" # the subpath of your site, e.g. /blog/
+url         : http://localhost:4000
+author      : Alexjander T. Bacalso
+
+# Site owner
+owner:
+  email            : janderbacalso@gmail.com
+  twitter_username : xubsolver
+  github_username  : xanderdwyl
+
+# Site creator
+
+
+# Build settings
+markdown: kramdown
