@@ -6,6 +6,7 @@ search      : true
 baseurl     : "" # the subpath of your site, e.g. /blog/
 url         : http://localhost:4000
 author      : Alexjander T. Bacalso
+permalink   : /:title
 
 # Site owner
 owner:

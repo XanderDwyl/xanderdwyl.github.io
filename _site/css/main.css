@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: #2a7ae2;
-  text-decoration: none; }
+  text-decoration: none !important; }
   a:visited {
     color: #1756a9; }
   a:hover {
@@ -168,15 +168,17 @@ pre {
   line-height: 56px; }
   .site-nav .nav-menu {
     list-style: none;
-    text-align: center; }
+    text-align: center;
+    margin: 0 0 65px 0; }
     .site-nav .nav-menu li {
       display: inline-block;
       padding: 0 10px; }
       .site-nav .nav-menu li a {
-        padding: 5px 20px 10px;
+        padding: 5px 0 8px;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 18px; }
+        font-size: 18px;
+        margin: 0 8px; }
       .site-nav .nav-menu li a.active, .site-nav .nav-menu li a:hover {
         border-bottom: 3px solid #9b00ff; }
   .site-nav .menu-icon {
@@ -223,7 +225,8 @@ pre {
  */
 .site-footer {
   border-top: 1px solid #e1e1e1;
-  padding: 30px 0; }
+  padding: 65px 0;
+  text-align: center; }
 
 .footer-heading {
   font-size: 18px;
@@ -274,7 +277,7 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0;
+  padding: 65px 0;
   background: #f9f9f9; }
 
 .page-heading {
@@ -284,15 +287,34 @@ pre {
   margin-left: 0;
   list-style: none; }
   .post-list > li {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    text-align: center; }
+    .post-list > li h2 {
+      font-weight: bold;
+      font-size: 36px; }
+    .post-list > li p {
+      padding: 10px 0; }
+    .post-list > li .post-excerpt {
+      font-size: 20px;
+      color: #4a4a4a; }
 
 .post-meta {
-  font-size: 14px;
-  color: #828282; }
+  font-size: 16px;
+  color: #9b9b9b;
+  padding: 0;
+  margin: 0; }
 
 .post-link {
-  display: block;
-  font-size: 24px; }
+  padding: 8px 28px;
+  border-radius: 40px;
+  border: 1px solid #9013fe;
+  font-size: 14px;
+  color: #9013fea; }
+  .post-link:visited {
+    color: #9013fe; }
+  .post-link:hover {
+    background-color: #9013fe;
+    color: #ffffff; }
 
 /**
  * Posts
@@ -325,6 +347,8 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+  .post-content p {
+    font-size: 20px; }
 
 /**
  * Syntax highlighting styles
