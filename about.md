@@ -5,20 +5,9 @@ order: 2
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<h2>A little about me...</h2>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel inventore architecto eveniet id neque ipsa quam. Facere est doloribus nostrum, consequuntur ipsa consectetur enim! Perferendis ad facere mollitia! Quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic repellat, tenetur, consectetur autem, qui magni nam illo minus commodi voluptatibus sint doloremque ipsam a quos natus error nemo! Tempora, at.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel inventore architecto eveniet id neque ipsa quam. Facere est doloribus nostrum, consequuntur ipsa consectetur enim! Perferendis ad facere mollitia! Quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic repellat, tenetur, consectetur autem, qui magni nam illo minus commodi voluptatibus sint doloremque ipsam a quos natus error nemo! Tempora, at.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel inventore architecto eveniet id neque ipsa quam. Facere est doloribus nostrum, consequuntur ipsa consectetur enim! Perferendis ad facere mollitia! Quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic repellat, tenetur, consectetur autem, qui magni nam illo minus commodi voluptatibus sint doloremque ipsam a quos natus error nemo! Tempora, at.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel inventore architecto eveniet id neque ipsa quam. Facere est doloribus nostrum, consequuntur ipsa consectetur enim! Perferendis ad facere mollitia! Quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic repellat, tenetur, consectetur autem, qui magni nam illo minus commodi voluptatibus sint doloremque ipsam a quos natus error nemo! Tempora, at.
+I surprise you've stumbled onto my personal blog <a href="alexjanderbacalso.com">alexjanderbacalso.com</a> where I post all kinds of random content
+and personal life updates.
 
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel inventore architecto eveniet id neque ipsa quam. Facere est doloribus nostrum, consequuntur ipsa consectetur enim! Perferendis ad facere mollitia! Quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic repellat, tenetur, consectetur autem, qui magni nam illo minus commodi voluptatibus sint doloremque ipsam a quos natus error nemo! Tempora, at.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel inventore architecto eveniet id neque ipsa quam. Facere est doloribus nostrum, consequuntur ipsa consectetur enim! Perferendis ad facere mollitia! Quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic repellat, tenetur, consectetur autem, qui magni nam illo minus commodi voluptatibus sint doloremque ipsam a quos natus error nemo! Tempora, at.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel inventore architecto eveniet id neque ipsa quam. Facere est doloribus nostrum, consequuntur ipsa consectetur enim! Perferendis ad facere mollitia! Quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic repellat, tenetur, consectetur autem, qui magni nam illo minus commodi voluptatibus sint doloremque ipsam a quos natus error nemo! Tempora, at.
-
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel inventore architecto eveniet id neque ipsa quam. Facere est doloribus nostrum, consequuntur ipsa consectetur enim! Perferendis ad facere mollitia! Quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic repellat, tenetur, consectetur autem, qui magni nam illo minus commodi voluptatibus sint doloremque ipsam a quos natus error nemo! Tempora, at.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel inventore architecto eveniet id neque ipsa quam. Facere est doloribus nostrum, consequuntur ipsa consectetur enim! Perferendis ad facere mollitia! Quaerat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic repellat, tenetur, consectetur autem, qui magni nam illo minus commodi voluptatibus sint doloremque ipsam a quos natus error nemo! Tempora, at.
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+By the way, I am Alexjander Bacalso, currently connected to a startup company based in Cebu, Philippines as Software Engineer. I am determined in everything I do and this is to work things out properly, in such a way that people will not only appreciate my work but as an example purpose.
