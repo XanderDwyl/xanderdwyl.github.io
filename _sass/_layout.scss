@@ -55,6 +55,9 @@
             a.active, a:hover {
                 border-bottom: 3px solid #9b00ff;
             }
+            a.active {
+                color : #9b00ff;
+            }
         }
     }
     .menu-icon {

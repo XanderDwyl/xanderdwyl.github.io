@@ -181,6 +181,8 @@ pre {
         margin: 0 8px; }
       .site-nav .nav-menu li a.active, .site-nav .nav-menu li a:hover {
         border-bottom: 3px solid #9b00ff; }
+      .site-nav .nav-menu li a.active {
+        color: #9b00ff; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
