@@ -11,10 +11,8 @@ layout: page
 			<p class="post-meta">
 				<span>{{ post.date | date: "%b %-d, %Y" }}</span>
 				<span>|</span>
-				<span class="post-date" post-date="{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}">created</span>
-				<span>|</span>
 				<span class="comment">
-					<span class="disqus-comment-count" data-disqus-identifier="{{ post.url | prepend: site.url }}"></span>
+					<span class="disqus-comment-count" data-disqus-identifier="{{ post.url | prepend: site.url }}">0</span>
 					<img class="icon" src="/images/comment.svg">
 				</span>
 			</p>

@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "My First Blog!"
-date:   2015-03-07 10:40:00
+title:  "First Blog!"
+author: XanderDwyl
+date:   2015-03-09 07:52:00
 categories: general
 excerpt: Welcome you here to my first blog post where I want to share and want to hear you comments also.
 ---
