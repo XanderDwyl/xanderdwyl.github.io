@@ -4,15 +4,25 @@
 	</div>
 
 	<nav class="site-nav">
-		<ul class="nav-menu">
-			<li><a class="btn page-link {% if page.url == '/index.html' or page.categories != nil %}active{% endif %}" href="/">Blog</a></li>
-			{% assign sorted_pages = (site.pages | sort: 'order') %}
-			{% for _page in sorted_pages %}
-				{% if _page.title %}
-					<li><a class="page-link{% if _page.url == page.url %} active{% endif %}" href="{{ _page.url | prepend: site.baseurl }}">{{ _page.title }}</a></li>
-				{% endif %}
-			{% endfor %}
-		</ul>
+		<div class="nav-menu">
+			<a href="/" class="brand-fixed" style="display:none;"><img src="/images/logo.svg"></a>
+			<ul>
+				<li>
+					<a class="btn page-link {% if page.url == '/index.html' or page.categories != nil %}active{% endif %}" href="/">Blog</a>
+				</li>
+				{% assign sorted_pages = (site.pages | sort: 'order') %}
+				{% for _page in sorted_pages %}
+					{% if _page.title %}
+						<li>
+							<a class="page-link{% if _page.url == page.url %} active{% endif %}" href="{{ _page.url | prepend: site.baseurl }}">
+								{{ _page.title }}
+							</a>
+
+						</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
 	</nav>
 
 </header>
