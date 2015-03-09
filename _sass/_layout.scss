@@ -57,6 +57,20 @@
                 color         : #9b00ff;
             }
         }
+
+        @include media-query($on-palm) {
+            ul {
+                margin : 0;
+
+                li {
+                    padding : 0 5px;
+                    a{
+                        font-size : 15px;
+                        margin    : 0;
+                    }
+                }
+            }
+        }
     }
     .menu-icon {
         display: none;
@@ -136,6 +150,7 @@
     .nav-menu {
         text-align : right;
     }
+
 }
 
 /**
@@ -152,6 +167,18 @@
 
             &:hover {
                 color : #9b00ff;
+            }
+        }
+
+        @include media-query($on-palm) {
+
+            a.icon {
+                margin     : 0 2px;
+                text-align : left;
+                font-size  : 12px;
+            }
+            img.icon {
+                width : 18px;
             }
         }
 
