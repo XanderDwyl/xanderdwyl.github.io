@@ -15,8 +15,6 @@ owner:
   twitter_username  : xubsolver
   github_username   : xanderdwyl
 
-# Site creator
-
-
+gems : [gallery.rb]
 # Build settings
 markdown: kramdown

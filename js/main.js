@@ -30,13 +30,17 @@
 		var nav         = document.querySelector('nav');
 		var siteBrand   = document.querySelector('.brand-fixed');
 
-		if (window.scrollY > header.offsetHeight){
+		var isSixPercent = 100-((window.scrollY/header.offsetHeight)*100);
+
+		if (window.scrollY > (header.offsetHeight-nav.offsetHeight) && isSixPercent < 6 ){
 			nav.className = 'site-nav nav-fixed';
 			nav.setAttribute('style', 'top:0;');
 
 			siteBrand.setAttribute('style', 'display:block;');
 			return;
 		}
+
+
 
 		nav.className = nav.className.replace('nav-fixed','');
 		nav.removeAttribute('style');

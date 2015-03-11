@@ -8,20 +8,16 @@ layout: page
 	{% for post in site.posts %}
 		<li>
 			<h2>{{ post.title }}</h2>
-			<p class="post-meta">
-				<span>{{ post.date | date: "%b %-d, %Y" }}</span>
-				<span>|</span>
-				<span class="comment">
-					<span class="disqus-comment-count" data-disqus-identifier="{{ post.url | prepend: site.url }}">0</span>
-					<img class="icon" src="/images/comment.svg">
-				</span>
-			</p>
-			<p class="post-excerpt">{{ post.excerpt }}</p>
+			<span class="post-meta">
+				{% if post.author %} {{ post.author }} {% endif %}
+				• {{ post.date | date: "%b %-d, %Y" }}
+				{% if post.categories %} • {{ post.categories }}{% endif %}
+			</span>
+			<p class="post-excerpt">{{ post.content | truncatewords: 25 }}</p>
 			<p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a></p>
 		</li>
 	{% endfor %}
 	</ul>
-
 
 </div>
 
