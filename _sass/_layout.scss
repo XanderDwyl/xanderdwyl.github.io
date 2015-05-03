@@ -245,7 +245,7 @@
         position  : absolute;
         width     : 100%;
         font-size : 14px;
-        top       : -2px;
+        top       : 0;
     }
 }
 
@@ -282,6 +282,19 @@
         .post-excerpt {
             font-size : 20px;
             color     : #4a4a4a;
+        }
+
+        & > .post-title {
+            > h2 {
+                display : inline-block;
+            }
+            > .comment {
+                top : -5px;
+                > .disqus-comment-count {
+                    top   : 20px;
+                    color : #00c8ff;
+                }
+            }
         }
     }
     > li:last-child {

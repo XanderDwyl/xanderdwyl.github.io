@@ -7,12 +7,20 @@ layout: page
 	<ul class="post-list">
 	{% for post in site.posts %}
 		<li>
-			<h2>{{ post.title }}</h2>
+			<div class="post-title">
+				<h2>{{ post.title }}</h2>
+				<span class="comment">
+					<span class="disqus-comment-count" data-disqus-identifier="{{ post.url | prepend: site.url }}">0</span>
+					<img class="icon" src="/images/icons/comment.svg">
+				</span>
+			</div>
 			<span class="post-meta">
 				{{ post.date | date: "%b %-d, %Y" }}
 			</span>
 			<p class="post-excerpt">{{ post.excerpt }}</p>
-			<p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a></p>
+			<p>
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+			</p>
 		</li>
 	{% endfor %}
 	</ul>
