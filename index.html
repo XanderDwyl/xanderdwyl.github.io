@@ -9,11 +9,9 @@ layout: page
 		<li>
 			<h2>{{ post.title }}</h2>
 			<span class="post-meta">
-				{% if post.author %} {{ post.author }} {% endif %}
-				• {{ post.date | date: "%b %-d, %Y" }}
-				{% if post.categories %} • {{ post.categories }}{% endif %}
+				{{ post.date | date: "%b %-d, %Y" }}
 			</span>
-			<p class="post-excerpt">{{ post.content | truncatewords: 25 }}</p>
+			<p class="post-excerpt">{{ post.excerpt }}</p>
 			<p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a></p>
 		</li>
 	{% endfor %}

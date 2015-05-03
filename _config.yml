@@ -15,6 +15,6 @@ owner:
   twitter_username  : xubsolver
   github_username   : xanderdwyl
 
-gems : [gallery.rb]
+# gems : [_plugins/gallery.rb]
 # Build settings
 markdown: kramdown
