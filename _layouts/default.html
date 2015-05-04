@@ -38,7 +38,20 @@
           s.src = '//' + disqus_shortname + '.disqus.com/count.js';
           (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
       }());
-    </script>
+
+      $(document).ready(function() {
+          $('.fancybox').fancybox({
+              prevEffect    : 'none',
+              nextEffect    : 'none',
+              closeBtn    : false,
+              helpers   : {
+                title : { type : 'inside' },
+                buttons : {}
+              }
+          });
+      });
+  </script>
+
   </body>
 
 </html>

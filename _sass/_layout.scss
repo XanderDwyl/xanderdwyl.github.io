@@ -389,3 +389,52 @@
     }
 }
 
+ul.images {
+
+    li {
+        display : inline-block;
+
+        .image-thumbnail {
+            padding    : 10px;
+            background : #ffffff;
+            height     : auto;
+            width      : auto;
+            overflow   : hidden;
+            display    : block;
+            border     : 1px solid #e1e1e1;
+            margin     : 0 auto;
+
+            a {
+                  max-height : 150px;
+                  position   : relative;
+                  display    : block;
+                  overflow   : hidden;
+            }
+
+        }
+    }
+
+}
+
+.row {
+    margin-left  : -10px;
+    margin-right : -10px;
+    padding      : 0 10px;
+
+    > * {
+        margin : 5px;
+    }
+    .col-lg-3 {
+        width : calc( ( 100% - 20px ) / 3.07 );
+    }
+    @include media-query('900px') {
+        .col-sm-6 {
+            width : calc( ( 100% - 20px ) / 2.02 );
+        }
+    }
+    @include media-query($on-palm) {
+        .col-xs-12 {
+            width : calc( 100% - 20px );
+        }
+    }
+}
