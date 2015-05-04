@@ -9,10 +9,12 @@ layout: page
 		<li>
 			<div class="post-title">
 				<h2>{{ post.title }}</h2>
-				<span class="comment">
-					<span class="disqus-comment-count" data-disqus-identifier="{{ post.url | prepend: site.url }}">0</span>
-					<img class="icon" src="/images/icons/comment.svg">
-				</span>
+				<div class="post-bubble">
+					<span class="comment">
+						<span class="disqus-comment-count" data-disqus-identifier="{{ post.url | prepend: site.url }}">0</span>
+						<img class="icon" src="/images/icons/comment.svg">
+					</span>
+				</div>
 			</div>
 			<span class="post-meta">
 				{{ post.date | date: "%b %-d, %Y" }}

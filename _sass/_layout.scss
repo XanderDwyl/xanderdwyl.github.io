@@ -241,6 +241,8 @@
     position : relative;
     width    : 100%;
     z-index  : 1;
+    display  : block;
+
     span {
         position  : absolute;
         width     : 100%;
@@ -288,11 +290,20 @@
             > h2 {
                 display : inline-block;
             }
-            > .comment {
-                top : -5px;
-                > .disqus-comment-count {
-                    top   : 20px;
-                    color : #00c8ff;
+            > .post-bubble {
+                width   : 40px;
+                display : inline-block;
+
+                > .comment {
+                    top : -8px;
+                    > .disqus-comment-count {
+                        left  : 0;
+                        top   : 15px;
+                        color : #00c8ff;
+                        @include media-query($on-laptop) {
+                            top : 12px;
+                        }
+                    }
                 }
             }
         }
