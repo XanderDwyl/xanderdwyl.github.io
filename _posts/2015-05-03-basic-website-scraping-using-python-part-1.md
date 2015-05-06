@@ -38,8 +38,7 @@ webpage = urlopen('http://<-- anywebsite -->/').read()
 # print the website page element
 print webpage
 {% endhighlight %}
-We can play around on displayed render HTML for a certain website page and I will give you enough time to analyze the pattern on the render HTML. On my next post I will discuss on how Regular Expression works in web scraping, just read in advance about Regular Expression.
 
-Feel free to send me a message or comment on the box below.
+It really pays to take pause and review little on a code and play around on displayed render HTML for a certain website on your 'choice' and I will give you enough time to analyze the pattern on the render HTML. On my next post I will discuss on how Regular Expression works in web scraping, just read in advance about Regular Expression.
 
-Thank you and have a nice day!
+Want to chat about this post? I'd love to hear from you. Feel free to send me a message or comment on the box below.
